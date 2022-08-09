@@ -6,8 +6,8 @@ import (
 	openzipkin "github.com/openzipkin/zipkin-go"
 	"github.com/openzipkin/zipkin-go/model"
 	"github.com/openzipkin/zipkin-go/reporter"
-	"go.opencensus.io/exporter/zipkin"
-	"go.opencensus.io/trace"
+	"github.com/census-instrumentation/opencensus-go/trace"
+	"github.com/census-instrumentation/opencensus-go/exporter/zipkin"
 )
 
 // InitTracing with config and transporter provided
