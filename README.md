@@ -169,7 +169,7 @@ For client and server, it use B3 for communication by default
 import (
   "net/http"
 
-  "github.com/census-instrumentation/opencensus-go"
+  "github.com/census-instrumentation/opencensus-go/plugin/ochttp"
 )
 
 handler := http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
