@@ -1,4 +1,4 @@
-module github.com/keymetrics/pm2-io-apm-go
+module github.com/Jacobamv/pm2-io-apm-go
 
 require (
 	github.com/google/uuid v1.1.1
